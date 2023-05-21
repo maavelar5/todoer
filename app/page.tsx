@@ -110,7 +110,7 @@ function Column(props: any): JSX.Element {
     let items: any = localStorage.getItem(props.title);
     items = JSON.parse(items);
     if (items) setCards(items);
-  }, []);
+  }, [props.title]);
 
   useEffect(() => {
     localStorage.setItem(props.title, JSON.stringify(cards));
