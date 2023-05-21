@@ -18,6 +18,11 @@
     margin-top: 32px;
     text-align: center;
     text-decoration: underline dotted;
+    cursor: pointer;
+}
+
+.cardClass p {
+    cursor: pointer;
 }
 
 .cardClass input {
